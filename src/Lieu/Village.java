@@ -10,6 +10,12 @@ public class Village {
 	 String [] villageois;
 	 int nbVilageois = 0;
 	 
+	 void main() {
+		Village("Village des irréductible", 30);
+		
+		
+	 }
+	 
 	 public Village(String nom, int nbVillageoisMaximum) {
 	   this.nom = nom;
 	   this.villageois[nbVillageoisMaximum];
