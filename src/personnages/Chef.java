@@ -14,4 +14,8 @@ public class Chef {
         this.effetPotion = effetPotion;
         this.village = village;
     }
+    
+    public String getNom() {
+    	return this.nom;
+    }
 }
